@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap");
+
+* {
+  font-family: "Roboto";
+}
+
+.mainPage {
+  background-color: #d5e1ef;
+  /* background-color: red; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgb(70, 70, 70);
+  width: 400px;
+  height: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.title {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #d5e1ef;
+}
+.searchBox {
+  background-color: grey;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox {
+  width: 80%;
+  height: 60%;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+}
+
+.searchBtn {
+  border: none;
+  width: 16%;
+  height: 61%;
+  background-color: rgb(26, 25, 25);
+  color: white;
+  text-align: center;
+  text-justify: center;
+  border-radius: 0 5px 5px 0;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background-color: rgb(92, 91, 91);
+}
+
+.imageDiv {
+  background-color: rgb(83, 83, 83);
+  margin: 10px 5px;
+  margin-bottom: 0;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji {
+  color: white;
+  font-size: 50px;
+}
+.message {
+  color: white;
+  font-size: 20px;
+}
+
+.downloadBtn {
+  border: none;
+  background-color: #d5e1e4;
+  color: black;
+  width: 97%;
+  height: 40px;
+  margin: 10px 5px;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.downloadBtn:hover {
+  background-color: rgb(29, 29, 29);
+  color: #d5e1e4;
+}
